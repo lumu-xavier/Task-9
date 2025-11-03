@@ -9,6 +9,7 @@ public class Main {
         System.out.println("EMPLOYEE DETAILS");
         mgr.displayDetails();
         sp.displayDetails();
+        sp1.displayDetails();
 
         System.out.println();
 
