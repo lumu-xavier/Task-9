@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Manager mgr = new Manager("M001","LUMU", 500000, "Managerial", 20, "Ethenz");
         SalesPerson sp = new SalesPerson("M002", "XAVIER", 400000, "SALES", 20, "Kampala");
+        SalesPerson sp1 = new SalesPerson("OOO1","MIMI", 200000, "SALES", 10, "Kampala");
 
         System.out.println("EMPLOYEE DETAILS");
         mgr.displayDetails();
