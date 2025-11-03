@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class SalesPerson extends Employee {
     double salesTarget;
     String region;
@@ -22,5 +20,6 @@ public class SalesPerson extends Employee {
         double HigherSales = computeCompensation(10);
 
         System.out.println("Commission: " + Commission);
+        System.out.println("HigherSales: " + HigherSales);
     }
 }
