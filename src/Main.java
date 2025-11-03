@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("EMPLOYEE DETAILS");
         mgr.displayDetails();
+        mgr1.displayDetails();
         sp.displayDetails();
 
         System.out.println();
