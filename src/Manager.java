@@ -20,6 +20,7 @@ public class Manager extends Employee{
         double seasonalBonus = computeCompensation(0.03);
 
         System.out.println("Annual Bonus: " + performance);
+        System.out.println("Seasonal Bonus: " + seasonalBonus);
         System.out.println();
     }
 }
