@@ -19,6 +19,7 @@ public class SalesPerson extends Employee {
         System.out.println("Region: " + region);
 
         double Commission = computeCompensation(5);
+        double HigherSales = computeCompensation(10);
 
         System.out.println("Commission: " + Commission);
     }
