@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         Manager mgr = new Manager("M001","LUMU", 500000, "Managerial", 20, "Ethenz");
+        Manager mgr1 = new Manager("M0024", "FRANCIS", 90000, "ACCOUNTING", 20, "SALES MAXIMISATION")
         SalesPerson sp = new SalesPerson("M002", "XAVIER", 400000, "SALES", 20, "Kampala");
 
         System.out.println("EMPLOYEE DETAILS");
